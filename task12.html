@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 12 – Feedback Form</title>
+  <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Feedback Form</h1>
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="rating">Rate Our Training (1–5):</label><br>
+      <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+      <label for="comments">Your Comments:</label><br>
+      <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+      <input type="submit" value="Submit Feedback">
+    </form>
+  </div>
+
+</body>
+</html>
